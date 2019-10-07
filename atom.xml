@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://aiguang11211.github.io/"/>
-  <updated>2019-10-07T04:02:44.117Z</updated>
+  <updated>2019-10-07T07:17:39.330Z</updated>
   <id>http://aiguang11211.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客</title>
+    <title>国庆旅游记录</title>
     <link href="http://aiguang11211.github.io/2019/10/07/di-yi-pian-bo-ke/"/>
     <id>http://aiguang11211.github.io/2019/10/07/di-yi-pian-bo-ke/</id>
     <published>2019-10-07T03:02:07.000Z</published>
-    <updated>2019-10-07T04:02:44.117Z</updated>
+    <updated>2019-10-07T07:17:39.330Z</updated>
     
     <summary type="html">
     
@@ -29,36 +29,21 @@
       
         
         
-          &lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;国庆旅游–广州&quot;&gt;&lt;a href=&quot;#国庆旅游–广州&quot; class=&quot;headerlink&quot; title=&quot;国庆旅游–广州&quot;&gt;&lt;/a&gt;国庆旅游–广州&lt;/h1&gt;&lt;p&gt;这可能是我今年最累的出行&lt;span class=&quot;github-emoji&quot;
         
       
     
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://aiguang11211.github.io/2019/10/07/hello-world/"/>
-    <id>http://aiguang11211.github.io/2019/10/07/hello-world/</id>
-    <published>2019-10-07T02:04:08.375Z</published>
-    <updated>2019-10-07T02:04:08.375Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
+      <category term="博客" scheme="http://aiguang11211.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="旅游" scheme="http://aiguang11211.github.io/tags/%E6%97%85%E6%B8%B8/"/>
+    
+      <category term="国庆" scheme="http://aiguang11211.github.io/tags/%E5%9B%BD%E5%BA%86/"/>
+    
+      <category term="漫展" scheme="http://aiguang11211.github.io/tags/%E6%BC%AB%E5%B1%95/"/>
     
   </entry>
   
