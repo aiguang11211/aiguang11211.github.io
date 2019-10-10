@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>快速排序算法</title>
+      <link href="/2019/10/10/kuai-su-pai-xu-suan-fa/"/>
+      <url>/2019/10/10/kuai-su-pai-xu-suan-fa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JAVA版快排算法"><a href="#JAVA版快排算法" class="headerlink" title="JAVA版快排算法"></a>JAVA版快排算法</h1><pre><code>package main;import java.util.Arrays;/** * @author 拉布拉多搭 * @create 2019-09-28-12:34 * 快速排序 */public class Sort {    public static void main(String[] args) {        int[] arr={-9,78,-800,21,0,23,-1,-567,70};        quickSort(arr,0,arr.length-1);        System.out.println(Arrays.toString(arr));    }    public static void quickSort(int[] arr,int left,int right){        int l=left;//左下标        int r=right;//右下标        int pivot=arr[(left+right)/2];        int temp=0;        while(l&lt;r){            while(arr[l]&lt;pivot){                l+=1;            }            while(arr[r]&gt;pivot){                r-=1;            }            if(l&gt;=r){                break;            }            temp=arr[r];            arr[r]=arr[l];            arr[l]=temp;            if(arr[l]==pivot){                r-=1;            }            if(arr[r]==pivot){                l+=1;            }        }        if(l==r){            l++;            r--;        }        //向左递归        if(left&lt;r){            quickSort(arr,left,r);        }        //向右递归        if(right&gt;l){            quickSort(arr,l,right);        }    }}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 排序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>国庆旅游记录</title>
       <link href="/2019/10/07/di-yi-pian-bo-ke/"/>
       <url>/2019/10/07/di-yi-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[<h1 id="国庆旅游–广州"><a href="#国庆旅游–广州" class="headerlink" title="国庆旅游–广州"></a>国庆旅游–广州</h1><p>这可能是我今年最累的出行<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png?v8">😂</span>，带着我弟在广州到处走。</p><h2 id="CICFACG漫展"><a href="#CICFACG漫展" class="headerlink" title="CICFACG漫展"></a>CICFACG漫展</h2><p>说到漫展，首先就是打游戏啦。</p><p><img src="/medias/featureimages/photo/0.jpg" alt=""></p><hr><p> PlayStation展台</p><p><img src="/medias/featureimages/photo/IMG_3987.JPG" alt="*"></p><p><img src="/medias/featureimages/photo/IMG_3988.JPG" alt=""></p><p><strong>一张图感受现场的恐怖<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png?v8">😆</span></strong></p><p><img src="/medias/featureimages/photo/IMG_3990.JPG" alt=""></p><hr><h2 id="圣心大教堂"><a href="#圣心大教堂" class="headerlink" title="圣心大教堂"></a>圣心大教堂</h2><p>人人人，全是人就对了</p><p><img src="/medias/featureimages/photo/IMG_3992.JPG" alt=""></p><p><del>附上我弟帅气的正脸</del></p><p><img src="/medias/featureimages/photo/IMG_3994.JPG" alt=""></p><p>排了半个小时终于进入教堂内部，仿佛穿越到了黑暗之魂的场景中，想起了受苦的日子<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f601.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f601.png?v8">😁</span></p><p><img src="/medias/featureimages/photo/IMG_3997.JPG" alt=""></p><p><img src="/medias/featureimages/photo/IMG_3999.JPG" alt=""></p><p><img src="/medias/featureimages/photo/IMG_3998.JPG" alt=""></p><p>从正下方看上去还是很威严的，<del>右下角的横幅有点不合群。</del></p><p><img src="/medias/featureimages/photo/IMG_4004.JPG" alt=""></p><p><strong>最后附上一张黑魂的图，祝大家国庆快乐**</strong></p><p><img src="/medias/featureimages/photo/timg.jpg" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="国庆旅游–广州"><a href="#国庆旅游–广州" class="headerlink" title="国庆旅游–广州"></a>国庆旅游–广州</h1><p>这可能是我今年最累的出行:joy:，带着我弟在广州到处走。</p><h2 id="CICFACG漫展"><a href="#CICFACG漫展" class="headerlink" title="CICFACG漫展"></a>CICFACG漫展</h2><p>说到漫展，首先就是打游戏啦。</p><p><img src="/medias/featureimages/photo/0.jpg" alt></p><hr><p> PlayStation展台</p><p><img src="/medias/featureimages/photo/IMG_3987.JPG" alt="*"></p><p><img src="/medias/featureimages/photo/IMG_3988.JPG" alt></p><p><strong>一张图感受现场的恐怖:laughing:</strong></p><p><img src="/medias/featureimages/photo/IMG_3990.JPG" alt></p><hr><h2 id="圣心大教堂"><a href="#圣心大教堂" class="headerlink" title="圣心大教堂"></a>圣心大教堂</h2><p>人人人，全是人就对了</p><p><img src="/medias/featureimages/photo/IMG_3992.JPG" alt></p><p><del>附上我弟帅气的正脸</del></p><p><img src="/medias/featureimages/photo/IMG_3994.JPG" alt></p><p>排了半个小时终于进入教堂内部，仿佛穿越到了黑暗之魂的场景中，想起了受苦的日子:grin:</p><p><img src="/medias/featureimages/photo/IMG_3997.JPG" alt></p><p><img src="/medias/featureimages/photo/IMG_3999.JPG" alt></p><p><img src="/medias/featureimages/photo/IMG_3998.JPG" alt></p><p>从正下方看上去还是很威严的，<del>右下角的横幅有点不合群。</del></p><p><img src="/medias/featureimages/photo/IMG_4004.JPG" alt></p><p><strong>最后附上一张黑魂的图，祝大家国庆快乐**</strong></p><p><img src="/medias/featureimages/photo/timg.jpg" alt></p>]]></content>
       
       
       <categories>
