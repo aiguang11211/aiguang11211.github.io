@@ -58,7 +58,7 @@
     
     
     <entry>
-      <title>堆排序算法</title>
+      <title>赫夫曼树应用：赫夫曼压缩和解压</title>
       <link href="/2019/10/10/he-fu-man-ya-suo-he-jie-ya/"/>
       <url>/2019/10/10/he-fu-man-ya-suo-he-jie-ya/</url>
       
@@ -76,7 +76,9 @@
             
             <tag> 算法 </tag>
             
-            <tag> 排序 </tag>
+            <tag> 二叉树 </tag>
+            
+            <tag> 数据结构 </tag>
             
         </tags>
       

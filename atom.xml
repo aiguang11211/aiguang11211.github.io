@@ -75,11 +75,11 @@
   </entry>
   
   <entry>
-    <title>堆排序算法</title>
+    <title>赫夫曼树应用：赫夫曼压缩和解压</title>
     <link href="http://aiguang11211.github.io/2019/10/10/he-fu-man-ya-suo-he-jie-ya/"/>
     <id>http://aiguang11211.github.io/2019/10/10/he-fu-man-ya-suo-he-jie-ya/</id>
     <published>2019-10-10T13:12:07.000Z</published>
-    <updated>2019-10-14T13:49:36.037Z</updated>
+    <updated>2019-10-14T13:53:37.665Z</updated>
     
     <summary type="html">
     
@@ -99,7 +99,9 @@
     
       <category term="算法" scheme="http://aiguang11211.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="排序" scheme="http://aiguang11211.github.io/tags/%E6%8E%92%E5%BA%8F/"/>
+      <category term="二叉树" scheme="http://aiguang11211.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+      <category term="数据结构" scheme="http://aiguang11211.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
